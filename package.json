@@ -1,0 +1,29 @@
+{
+  "name": "ai-agent-lab",
+  "version": "0.1.0",
+  "description": "Learning & experimentation lab for building AI Agent infrastructure with Node.js + TypeScript.",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "ai-agent",
+    "rag",
+    "mcp",
+    "function-calling",
+    "kubernetes"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.50.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.5",
+    "tsx": "^4.7.1"
+  }
+}
